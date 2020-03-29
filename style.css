@@ -6,13 +6,16 @@
     font-family: monospace;
     color:white;
 }
+
 .left{
     text-align: left;
     font-size: small;
 }
+
 .left ul{
     text-align: center;
 }
+
 .right{
     text-align: right;
 }
@@ -22,6 +25,7 @@
     background-size: 600px;
 
 }
+
 .section-one-first-paragraph{
     text-align: center;
     color: brown;
@@ -35,10 +39,12 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 .section-one-images > img{
     width: 275px;
     height: 275px;
 }
+
 .section-one-second-paragraph{
     text-align: center;
     color:black;
@@ -47,6 +53,7 @@
     font-style: inherit;
     font-size: 16px;
 }
+
 .button{
     border: 5px;
     background-color: white;
@@ -56,27 +63,36 @@
     font-family: monospace;
     padding:5px;    
 }
+
+.two{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .section-one-button{
         display: flex;
         justify-content: space-around;
         padding-bottom: 5px;
 }
+
 .section-two-left{
     display: flex;
     justify-content: space-evenly;
     width: 200px;
     height: 400px;
 
-    }
+
+}
+
 .paragraph{
     background-color: gray;
-    display: flex;
+    display: grid;
     justify-content: right;
     padding: 3px;
     text-align: center;
     font-size: 19px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 10px;
+
 }
 
 .section-two-right > button{
@@ -86,7 +102,51 @@
     justify-items: center;
     border: 10px;
 }
-.two{
+
+.three{
+    display: flexbox;
+    width: 900px;
+    height: 580px;
+    background-image: url(https://sigurros.com/wp-content/uploads/2019/08/horizonal-crop-1024x576.jpg);
+}
+
+.section-three-content{
+    padding: 420px 0px 15px 0px;
+}
+
+.s3cp{
+    background-color: lightgray;
+    display: grid;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.section-three-button{
     display: flex;
-    justify-content: space-evenly;
+    align-self: center;
+    justify-content: center;
+    border: 10px;
+    padding: 5px;
+    color: lightgray;
+    background-size: contain;
+    background-color: black;
+    border: 3px gray;
+}
+
+.four{
+    background-color: lightcyan;
+}
+.section-four-header{
+    font-family: serif;
+    display: list-item;
+    font-size: xx-large;
+    text-size-adjust: 25%;
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+}
+
+.section-four-content{
+    text-align: center;  
 }
