@@ -16,25 +16,77 @@
 .right{
     text-align: right;
 }
+
+.one{
+    background-image: url(https://www.duvarline.com/image/cache/catalog/truva/truva-8606-2-acik-kahve-keten-dokulu-duvar-kagidi-700x700.jpg);
+    background-size: 600px;
+
+}
 .section-one-first-paragraph{
     text-align: center;
-    color: white;
-    font-weight: 400;
+    color: brown;
+    font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: initial ;
     font-size: 20px;
-    background-image: url(https://www.duvarline.com/image/cache/catalog/truva/truva-8606-2-acik-kahve-keten-dokulu-duvar-kagidi-700x700.jpg);
-    background-size: 100px;
 }
+
 .section-one-images{
-    width: 50px;
-    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-one-images > img{
+    width: 275px;
+    height: 275px;
 }
 .section-one-second-paragraph{
-    text-align: justify;
-    color: yellowgreen;
-    font-weight: 400;
+    text-align: center;
+    color:black;
+    font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
     font-size: 16px;
+}
+.button{
+    border: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 10 px;
+    font-family: monospace;
+    padding:5px;    
+}
+.section-one-button{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5px;
+}
+.section-two-left{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 400px;
+
+    }
+.paragraph{
+    background-color: gray;
+    display: flex;
+    justify-content: right;
+    padding: 3px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px;
+}
+
+.section-two-right > button{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-items: center;
+    border: 10px;
+}
+.two{
+    display: flex;
+    justify-content: space-evenly;
 }
